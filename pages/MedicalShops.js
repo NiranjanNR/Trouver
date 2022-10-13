@@ -3,6 +3,7 @@ import { useState } from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import MediShop from '../assets/MediShop.svg'
 import Shops from '../components/Shops/Shops'
+import Footer from './footer'
 
 const MedicalShops = () => {
   return (
@@ -35,6 +36,7 @@ const MedicalShops = () => {
         </div>
       </div >
       <Shops />
+      <Footer />
     </div>
 
   )
