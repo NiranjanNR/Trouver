@@ -1,4 +1,4 @@
-import Page1 from './Page1'
+import MedicalShops from './MedicalShops'
 
 export default function Home() {
   return (

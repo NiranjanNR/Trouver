@@ -1,4 +1,5 @@
 .page-1{
+    background-image: linear-gradient(to right top, #a3ffff, #b9feff, #cffcff, #e4fbff, #f5fbff, #f8fbff, #fcfbff, #fffbff, #fff7fc, #fff5ef, #fff6df, #fffcd5);
 }
 .mediphoto{
     height: 550px;
@@ -9,4 +10,10 @@
 }
 .head{
     color: rgba(29, 60, 116, 255);
+}
+.fontme{
+    font-family: 'Noto Serif Display', serif;
+}
+.buttonmod{
+    background-color: rgba(59, 166, 249, 255);
 }
