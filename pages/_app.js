@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import '../styles/Page1.css'
 import '../components/NavBar/NavBar.css'
-
+import '../styles/foocss.css'
 
 
 function MyApp({ Component, pageProps }) {
