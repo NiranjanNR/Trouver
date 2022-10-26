@@ -6,9 +6,10 @@ const Shops = () => {
         {
             id: 1,
             name: "Amrita Clinic",
+            doc:"Dr.Raju",
             location: "Kulasekharapuram, Kerala 690546",
             description: "asd",
-            Specialisation: "Specialisation: general, vomiting", 
+            Specialisation: "general, vomiting", 
              Timings:"Timings: 7:30-9:00",
              Fee : "Fee: Rs.140",
             Appointment_no: "Appointment_no: 9446961828",
