@@ -1,10 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { IoCloseCircleOutline } from "react-icons/io5";
-
+import { AiFillAccountBook } from "react-icons/ai";
+import { ImLocation } from "react-icons/im";
+import { FaBriefcaseMedical } from "react-icons/fa";
 
 const Modal = ({shop, close}) => {
-    const {name,location,description,image} = shop;
+    const {name,location,description,image,Specialisation,Timings,Fee,Appointment_no,Appointment_Type} = shop;
 
     const dropIn = {
         visible: {
@@ -60,10 +62,17 @@ const Modal = ({shop, close}) => {
         <motion.div className='flex h-screen w-screen overflow-hidden' variants={dropIn} initial="hidden" animate="visible" exit="exit">
             <motion.div className='bg-white 2xl:h-2/3 2xl:w-3/4 xl:h-2/5 xl:w-3/5 p-10 m-auto rounded-3xl shadow-grey-300 grid grid-cols-3 gap-4 grid-rows-2'>
             <motion.img variants={imageDrop} src={image} className="col-span-2 row-span-2 rounded-2xl object-cover h-full w-full" />
-                <motion.div variants={infoSlide} className=' row-span-2 flex flex-col gap-5' >
+                <motion.div variants={infoSlide} className=' row-span-2 flex flex-col gap-1' >
                     <motion.div className='text-5xl'>{name}</motion.div>
-                    <motion.div  className='text-2xl' >{location}</motion.div>
-                    <motion.div  className='text-2xl'>{description}</motion.div>
+                    <div class="flex justify-start">
+                    <ImLocation className='text-3xl mr-5'/> <motion.div  className='text-2xl' >{location}</motion.div></div>
+{/*                     <motion.div  className='text-2xl overflow-x-scroll'>{description}</motion.div>*/}
+
+<div class="flex justify-start"><FaBriefcaseMedical className='text-3xl mr-5'/><motion.div  className='text-2xl'>{Specialisation}</motion.div></div>
+                    <motion.div  className='text-2xl'>{Timings}</motion.div>
+                    <motion.div  className='text-2xl'>{Fee}</motion.div>
+                    <motion.div  className='text-2xl'>{Appointment_no}</motion.div>
+                    <motion.div  className='text-2xl'>{Appointment_Type}</motion.div>
                 </motion.div>
             </motion.div>
             
