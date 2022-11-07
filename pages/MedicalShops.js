@@ -19,7 +19,7 @@ const MedicalShops = () => {
               <div className='mt-40 flex'>
                 <div className=''>
                   <div className='fontme head xl:text-5xl text-6xl'>230k+</div>
-                  <div className='mt-4 text-slate-400 text-sm font-semibold'>Satisfied customers</div>
+                  <div className='mt-4 text-slate-400 text-sm font-semibold'>Satisfiedcustomers</div>
                 </div>
                 <div className='ml-28'>
                   <div className='fontme head xl:text-5xl text-6xl'>97%</div>
@@ -33,10 +33,13 @@ const MedicalShops = () => {
             </div>
             <div><img alt='' className='rounded-[300px] mediphoto ml-24 mt-24' src='settt.gif'></img></div>
           </div>
+          <Shops />
+          <Footer />
         </div>
+
       </div >
-      <Shops />
-      <Footer />
+    
+  
     </div>
 
   )
