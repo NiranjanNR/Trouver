@@ -33,13 +33,10 @@ const MedicalShops = () => {
             </div>
             <div><img alt='' className='rounded-[300px] mediphoto ml-24 mt-24' src='settt.gif'></img></div>
           </div>
-          <Shops />
-          <Footer />
         </div>
-
       </div >
-    
-  
+      <Shops />
+      <Footer />
     </div>
 
   )

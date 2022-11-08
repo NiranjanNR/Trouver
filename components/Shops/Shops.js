@@ -40,7 +40,7 @@ const Shops = () => {
     ]
   return (
     <div>
-        <div className='px-5 grid 2xl:grid-cols-4 2xl:gap-2 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1  '>
+        <div className='px-5 grid 2xl:grid-cols-4 2xl:gap-2 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 mt:16 '>
             {sampleData.map((item) => (
             <Card shop={item} key={item.id} />
           ))}
