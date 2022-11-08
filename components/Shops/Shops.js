@@ -41,7 +41,7 @@ const Shops = () => {
         },
         {
             id: 4,
-            name: "Dr Safa's Clinic",
+            name: "Ayra Clinic",
             doc:"Dr Safa",
             location: "kalarivadhikal junction, kottakal puram",
             Specialisation: "general practitioner", 

@@ -28,7 +28,7 @@ const MedicalShops = () => {
                     Check it out
                   </div>
                   
-                </Link>
+                </Link> 
               </div>
             </div>
           </div>

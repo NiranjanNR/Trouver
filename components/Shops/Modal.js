@@ -69,7 +69,7 @@ const Modal = ({ shop, close }) => {
           <motion.div className='text-5xl'>{name}</motion.div>
           <div class="flex justify-start"><BsFillPersonFill className='text-3xl mr-5' />  <motion.div className='text-2xl'>{doc}</motion.div></div>
 
-          <div class="flex justify-start"><ImLocation className='text-3xl mr-5' /> <motion.div className='text-2xl' >{location}</motion.div></div>
+          <div class="flex justify-start"><ImLocation className='text-4xl mr-5' /> <motion.div className='text-2xl' >{location}</motion.div></div>
 
 
           <div class="flex justify-start"><FaBriefcaseMedical className='text-3xl mr-5' /><motion.div className='text-2xl'>{Specialisation}</motion.div></div>
