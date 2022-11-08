@@ -9,6 +9,7 @@ const MedicalShops = () => {
 
   return (
     <div>
+      <div className='grid grid-row-3 gap-3'>
       <div className='page-1 h-[100vh]'>
         <NavBar />
         <div className='px-24 ml-5'>
@@ -36,8 +37,13 @@ const MedicalShops = () => {
           </div>
         </div>
       </div >
+      
       <Shops />
+
       <Footer />
+      </div>
+      
+      
     </div>
 
   )

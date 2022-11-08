@@ -8,7 +8,6 @@ const Shops = () => {
             name: "Amrita Clinic",
             doc: "Dr.Raju",
             location: "Kulasekharapuram, Kerala 690546",
-            description: "asd",
             Specialisation: "general practitioner", 
              Timings:"7:30-9:00",
              Fee : "Rs.140",
@@ -21,7 +20,6 @@ const Shops = () => {
             name: "Daya Clinic",
             doc:"Dr.Reshma, Dr.Meghna",
             location: "kalarivadhikal junction, kottakal puram",
-            description: "asd",
             Specialisation: "general practitioner", 
              Timings:"9:00 AM-1:00 PM, 3:00 PM-9:00 PM",
              Fee : "Rs.60",
@@ -34,7 +32,6 @@ const Shops = () => {
             name: "Dr Bright",
             doc:"Dr K Bright",
             location: "Near Amrita Ayurveda School Rd, Vallikavu, Kerala 690546",
-            description: "asd",
             Specialisation: "general practitioner", 
              Timings:"7.30 AM-8.30 AM, 4.30 PM-8.30 PM",
              Fee : "Rs.250",
@@ -47,7 +44,6 @@ const Shops = () => {
             name: "Dr Safa's Clinic",
             doc:"Dr Safa",
             location: "kalarivadhikal junction, kottakal puram",
-            description: "asd",
             Specialisation: "general practitioner", 
              Timings:"8:00 AM-1:00 PM ; 4:00 PM-9:00 PM",
              Fee : "Rs.120",
@@ -60,7 +56,6 @@ const Shops = () => {
             name: "Irania Hospital",
             doc:"Dr Iranisha",
             location: "Varavila, Changankulangara Vallikunnam Road, Vavvakkavu, Kerala 690528",
-            description: "asd",
             Specialisation: "Physician", 
              Timings:"7:00 AM-9.30 PM",
              Fee : "Rs.100",
@@ -73,7 +68,6 @@ const Shops = () => {
             name: "Dr Vidya's Clinic",
             doc:"Dr Vidya L",
             location: "Near Mangalath Auto Park, Vallikavu-Ochira Road, Clappana, Kerala 690546",
-            description: "asd",
             Specialisation: "Paediatrician", 
              Timings:"4.30 PM-7:00 PM",
              Fee : "Children:Rs.150, Adults:Rs.160",
@@ -83,7 +77,7 @@ const Shops = () => {
         }
     ]
     return (
-        <div className='m-10 h-[100vh]'>
+        <div className='m-10 xl:h-[100vh]'>
             <div className='flex justify-center mb-6 mt-'>
                 <div className=''>
                     <div className='text-sky-400 text-center text-lg mb-6 '>Our Services</div>
