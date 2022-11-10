@@ -3,9 +3,9 @@ import NavBar from '../components/NavBar/NavBar'
 
 function Thanku() {
   return (
-    <div className='thanku xl:h-[100]vh'>
+    <div className='thanku h-[100vh]' >
       <NavBar />
-      <div className='flex justify-center'>
+      <div className='flex justify-center '>
         <div className=''>
           <div className='text-4xl fontme2 head text-center'>Your form has been submitted</div>
           <div className='flex justify-center'><img alt='' className='mediphoto text-center' src='Astronaut.gif'></img></div>
