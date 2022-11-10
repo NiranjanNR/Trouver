@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
+import Router from 'next/router'
+
 
 const NavBar = () => {
     return (
         <div className='mb-12 mx-8'>
             <div className=' flex justify-center rest pt-6'>
                 <div className='mr-auto set-t text-3xl head logo ml-4 font-bold'>
-                    <p className=''>Trouver</p>
+                    <button className='' onClick={()=>{Router.push('/')}}>Trouver</button>
                 </div>
                 <div className=' flex justify-center'>
                     <div className=' font-semibold text-lg '>
@@ -15,7 +17,7 @@ const NavBar = () => {
                         <button className='hover:text-sky-900/75 px-5'>Blog</button>
                     </div>
                 </div>
-                <button className='text-lg text-white hover:bg-sky-400 setbgbutton font-semibold rounded-lg ml-auto py-3 px-5 sign-up' >Contact us</button>
+                <button className='text-lg text-white hover:bg-sky-400 setbgbutton font-semibold rounded-lg ml-auto py-3 px-5 sign-up' onClick={()=>{Router.push('/Forms')}}>Help us</button>
             </div>
         </div>
     )

@@ -1,19 +1,41 @@
-.page-1{
+.page-1 {
     background-image: linear-gradient(to right top, #a3ffff, #b9feff, #cffcff, #e4fbff, #f5fbff, #f8fbff, #fcfbff, #fffbff, #fff7fc, #fff5ef, #fff6df, #fffcd5);
 }
-.mediphoto{
+
+.thanku {
+    background: hsla(0, 0%, 100%, 1);
+
+    background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 52%, hsla(185, 100%, 93%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 52%, hsla(185, 100%, 93%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 52%, hsla(185, 100%, 93%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+}
+
+.mediphoto {
     height: 550px;
     width: 550px;
 }
-.headin{
+
+.headin {
     font-family: 'Prata', serif;
 }
-.head{
+
+.head {
     color: rgba(29, 60, 116, 255);
 }
-.fontme{
+
+.fontme {
     font-family: 'Noto Serif Display', serif;
+    margin-top: -50px;
 }
-.buttonmod{
+
+.buttonmod {
     background-color: rgba(59, 166, 249, 255);
+}
+
+.fontme2 {
+    font-family: 'Hind Siliguri', sans-serif;
 }
