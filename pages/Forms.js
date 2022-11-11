@@ -18,10 +18,10 @@ function SgstClinic() {
   };
   return (
 
-    <div class="sm:grid grid-cols-1 divide-x h-screen">
+    <div class="">
 
       <div className="">
-        <div className='mt-6'>
+        <div className=''>
           <div className='lg:p-20 p-4'>
             <div className=' rounded-lg shadow-2xl border-4  border border-blue-400 border-opacity-50 hover:border-blue-500 p-5 mb-5'>
               <h1 className="text-2xl mb-5 ml-5 text font-bold">Suggest a medical facility near you!</h1>
@@ -103,7 +103,7 @@ function SgstMshops() {
 
     <div className="">
       <div className="">
-        <div className='mt-6'>
+        <div className=''>
           <div className='lg:p-20 p-4'>
             <div className=' rounded-lg shadow-2xl border-4  border border-blue-400 border-opacity-50 hover:border-blue-500 p-5 mb-5 ' >
               <h1 className="text-2xl mb-5 ml-5 text font-bold">Suggest a medical Shop you know near you!</h1>
@@ -165,9 +165,9 @@ function Forms() {
   const [shwfrm, setShwfrm] = useState(false)
 
   return (
-    <div>
-      <div className="mb-10 flex justify-center mt-10">
-       <div className='text-4xl font-bold'>Where can you help us at?</div>
+    <div className='thanku h-[100vh]'>
+      <div className="mb-10 flex justify-center pt-10">
+        <div className='text-4xl font-bold'>Where can you help us at?</div>
       </div>
 
       <div className="flex justify-center gap-24">
