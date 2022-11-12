@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <div>
                     <h5 className='text-xl font-bold mb-2.5'>Our Contact</h5>
-                    <p>Trouver, Amrita School of Computing, Amritapuri</p>
+                    <p>Trouver, Amrita School of Computing, Amritapuri, Kollam, Kerala 690525</p>
                     <p>Help: 9072868558</p>
                     <p>Email: trouver@gmail.com</p>
                 </div>
@@ -31,13 +31,16 @@ function Footer() {
 
 <ul class="list-none mb-0">
   <li>
+    <a href="#!" class="text-gray-800">Problems - Solutions</a>
+  </li>
+  <li>
+    <a href="#!" class="text-gray-800">Plan of Action</a>
+  </li>
+  <li>
+    <a href="#!" class="text-gray-800">Resource Mapping</a>
+  </li>
+  <li>
     <a href="#!" class="text-gray-800">About Us</a>
-  </li>
-  <li>
-    <a href="#!" class="text-gray-800">Services</a>
-  </li>
-  <li>
-    <a href="#!" class="text-gray-800">Support</a>
   </li>
 </ul>
                 </div>
