@@ -4,14 +4,14 @@ import NavBar from '../components/NavBar/NavBar'
 import MediShop from '../assets/MediShop.svg'
 import Shops from '../components/Shops/Shops'
 import Footer from './footer'
-
+import Testnav from './Testnav'
 const MedicalShops = () => {
 
   return (
     <div>
       <div className='grid grid-row-3 gap-3'>
         <div className='page-1 h-[100vh]'>
-          <NavBar />
+          <Testnav />
           <div className='px-24 ml-5'>
             <div className='xl:flex justify-center'>
               <div className='flex items-center justify-center'>
