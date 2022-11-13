@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import Router from 'next/router';
 function Footer() {
   return (
     <div className='p-10 xl:mt-10 '>
@@ -31,16 +31,16 @@ function Footer() {
 
 <ul class="list-none mb-0">
   <li>
-    <a href="#!" class="text-gray-800">Problems - Solutions</a>
+    <a href="#!" class="text-gray-800" onClick={() => { Router.push('/Prblmsol')}}>Problems - Solutions</a>
   </li>
   <li>
-    <a href="#!" class="text-gray-800">Plan of Action</a>
+    <a href="#!" class="text-gray-800" onClick={() => { Router.push('/PlnAction')}}>Plan of Action</a>
   </li>
   <li>
-    <a href="#!" class="text-gray-800">Resource Mapping</a>
+    <a href="#!" class="text-gray-800" onClick={() => { Router.push('/Resmap')}}>Resource Mapping</a>
   </li>
   <li>
-    <a href="#!" class="text-gray-800">About Us</a>
+    <a href="#!" class="text-gray-800" onClick={() => { Router.push('/Aboutus')}}>About Us</a>
   </li>
 </ul>
                 </div>

@@ -2,7 +2,8 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Router from 'next/router'
 import NavBar from '../components/NavBar/NavBar'
-
+import Footer from './footer'
+import Testnav from './testnav';
 
 function SgstClinic() {
   const form = useRef();
@@ -167,7 +168,7 @@ function Forms() {
 
   return (
     <div className='thanku h-[100vh]'>
-      <NavBar />
+      <Testnav />
  
       <div className="mb-10 flex justify-center pt-10">
         <div className='text-4xl font-bold'>Where can you help us at?</div>
@@ -191,7 +192,9 @@ function Forms() {
       </div>
       <div>
         {!active && shwfrm && <SgstMshops />}
+        
       </div>
+      <Footer/>
     </div>
 
   )

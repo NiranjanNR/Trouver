@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './footer'
 import Testnav from './Testnav'
 function Goal() {
   return (
@@ -14,6 +15,7 @@ function Goal() {
               </div>
               <div>The gif to be placed</div>
               </div>
+              <Footer />
     </div>
   )
 }

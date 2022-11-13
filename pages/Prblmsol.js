@@ -1,5 +1,6 @@
 import React from 'react'
 import Testnav from './Testnav'
+import Footer from './footer'
 function Prblmsol() {
   return (
     <div className='thanku h-[100vh]'>
@@ -18,6 +19,7 @@ function Prblmsol() {
               </div>
               </div>
               </div>
+              <Footer />
     </div>
   )
 }
