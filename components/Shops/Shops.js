@@ -78,9 +78,9 @@ const Shops = () => {
     ]
     return (
         <div className='m-10 xl:h-[100vh]'>
-            <div className='flex justify-center mb-6 mt-'>
-                <div className=''>
-                    <div className='head fontme tracking-wide xl:text-4xl text-4xl p-4'>Available Clinics</div>
+            <div className='flex justify-center mb-6'>
+                <div className='mt-12'>
+                    <div className='head fontme tracking-wide xl:text-4xl text-4xl p-4 '>Available Clinics</div>
                 </div>
             </div>
             <div className='px-5 grid 2xl:grid-cols-4 2xl:gap-2 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 mt:16 '>
