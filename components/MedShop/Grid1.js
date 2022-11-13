@@ -6,8 +6,8 @@ const Grid = ({shop, open}) => {
     const {name,location,description,image} = shop;
 
     return (
-        <motion.div className=" h-[325px] m-5 rounded-2xl shadow-xl overflow-hidden " onClick={open} whileHover={{ scale: 1.1 }}>
-          <div className="h-1/12 grid grid-cols-1" >
+        <motion.div className=" m-5 rounded-3xl shadow-lg overflow-hidden" onClick={open} whileHover={{ scale: 1.1 }}>
+          <div className=" grid grid-cols-1" >
             <div className="listing__image-container">
               <img
                 className="w-full"
