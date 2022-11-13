@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Router from 'next/router'
 export default function Testnav() {
     const [navbar, setNavbar] = useState(false);
 
@@ -67,6 +67,9 @@ export default function Testnav() {
                             </li>
                             <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
                                 <button>About Us</button>
+                            </li>
+                            <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
+                            <button className='text-lg text-white hover:bg-sky-400 setbgbutton font-semibold rounded-lg ml-auto py-3 px-5 sign-up' onClick={()=>{Router.push('/Forms')}}>Help us</button>
                             </li>
                            
                         </ul>

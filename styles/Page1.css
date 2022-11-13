@@ -39,3 +39,22 @@
 .fontme2 {
     font-family: 'Hind Siliguri', sans-serif;
 }
+.cardsfront1{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.reallymatter{
+    font-family: 'Caveat', cursive;
+}
+
+.context{
+    font-family: 'Kanit', sans-serif;
+    color: rgba(29, 60, 116, 255);
+}
+
+.cardsdata{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.fontcol{
+    color: rgba(29, 60, 116, 255);
+}

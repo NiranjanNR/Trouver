@@ -22,7 +22,7 @@ const MedicalShops = () => {
                 </div>
 
                 <Link
-                  href={"/MedicalShops"}
+                  href={"/Pharmacy"}
                 >
                   <div className="mt-20 px-8 py-4 uppercase rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-center block w-full focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-80 cursor-pointer">
                     Check it out
