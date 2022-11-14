@@ -10,7 +10,7 @@ const LandingPage = () => {
     "bg-gradient-to-r from-gray-900 via-blue-800 to-gray-900";
 
   return (
-    <div className="h-full w-full bg-white from relative overflow-hidden">
+    <div className="h-screen w-screen bg-white from relative overflow-x-hidden">
       <div
         id="signin"
         className={`bg-white absolute top-0 left-0 h-full w-1/2 flex justify-center items-center transition-all duration-700 ease-in-out z-20 ${

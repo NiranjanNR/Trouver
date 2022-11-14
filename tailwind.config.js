@@ -9,5 +9,7 @@ module.exports = {
       head:['Righteous']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide'),
+  ],
 }
