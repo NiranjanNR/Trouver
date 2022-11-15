@@ -194,7 +194,6 @@ function Forms() {
         {!active && shwfrm && <SgstMshops />}
         
       </div>
-      <Footer/>
     </div>
 
   )
