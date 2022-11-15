@@ -17,7 +17,7 @@ export default function Home() {
       <div
         className="flex h-screen w-screen"
         style={{
-          backgroundImage: `url('https://media.tenor.com/images/1f95f7460cd0d248fc4225d40e921874/tenor.gif')`,
+          backgroundImage: `url('Head.gif')`,
           backgroundSize: "cover",
         }}
       >
