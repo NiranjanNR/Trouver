@@ -6,6 +6,8 @@ import Shops from '../components/Shops/Shops'
 import Footer from '../components/Footer/footer'
 import Testnav from '../components/NavBar/Testnav'
 import Router from 'next/router';
+
+
 const MedicalShops = () => {
 
   return (
@@ -28,7 +30,7 @@ const MedicalShops = () => {
         </div >
 
         <Shops />
-
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1XZD4qBG6ZkAiWVefzzSNIXP6c5tePJ4&ehbc=2E312F" width="640" height="480"></iframe>
         <Footer />
       </div>
 
