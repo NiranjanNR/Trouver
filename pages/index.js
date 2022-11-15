@@ -22,14 +22,9 @@ export default function Home() {
         }}
       >
         <div className="m-auto">
-          <div className="text-6xl font-bold text-white mb-4">
-            Insert logo here
-          </div>
-          <div className="text-6xl font-bold text-white mb-4 text-center">
-            Trouver
-          </div>
+          <img src="trouver.png"/>
           <div className="text-center">
-            <button className="p-5 bg-white rounded-full text-black " onClick={() => executeScroll()}>
+            <button className="p-5 border-2 border-white font-bold rounded-full text-white hover:bg-white hover:text-black" onClick={() => executeScroll()}>
               Check it out
             </button>
           </div>
