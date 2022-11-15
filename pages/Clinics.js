@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import MediShop from '../assets/MediShop.svg'
 import Shops from '../components/Shops/Shops'
-import Footer from './footer'
-import Testnav from './Testnav'
+import Footer from '../components/Footer/footer'
+import Testnav from '../components/NavBar/Testnav'
 import Router from 'next/router';
 const MedicalShops = () => {
 

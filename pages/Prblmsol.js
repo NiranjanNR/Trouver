@@ -1,6 +1,6 @@
 import React from 'react'
-import Testnav from './Testnav'
-import Footer from './footer'
+import Testnav from '../components/NavBar/Testnav'
+import Footer from '../components/Footer/footer'
 function Prblmsol() {
   return (
     <div className='thanku h-[100vh]'>

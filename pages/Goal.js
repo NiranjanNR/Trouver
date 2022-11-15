@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from './footer'
-import Testnav from './Testnav'
+import Footer from '../components/Footer/footer'
+import Testnav from '../components/NavBar/Testnav'
 function Goal() {
   return (
 

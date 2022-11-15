@@ -3,14 +3,14 @@ import { useState } from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import MediShop from '../assets/MediShop.svg'
 import Shops from '../components/Shops/Shops'
-import Footer from './footer'
+import Footer from '../components/Footer/footer'
 import Shops1 from '../components/MedShop/Shops1'
-import Testnav from './Testnav'
+import Testnav from '../components/NavBar/Testnav'
 const MedicalShops = () => {
   return (
     <div>
       <div className='grid grid-row-3 gap-3'>
-      <div className='page-1 h-[100vh]'>
+      <div className='page-1 h-[100vh] w-[210vw] sm:w-full'>
         <Testnav/>
           <div className='xl:flex'>
             <div className='mt-24 mr-36'><img className='invisible xl:visible absolute mt-[-40px] ml-[400px] w-[250px] h-[250px] opacity-90' src='heartrate_copy.png'/>

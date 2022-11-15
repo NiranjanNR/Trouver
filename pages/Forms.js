@@ -2,8 +2,8 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Router from 'next/router'
 import NavBar from '../components/NavBar/NavBar'
-import Footer from './footer'
-import Testnav from './testnav';
+import Footer from '../components/Footer/footer'
+import Testnav from '../components/NavBar/Testnav';
 
 function SgstClinic() {
   const form = useRef();
