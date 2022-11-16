@@ -4,13 +4,13 @@ export default function Testnav() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <nav className="">
+            <div className="md:flex">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    <div className='mr-auto set-t text-3xl head logo ml-4 font-bold'>
-                    <button className='' onClick={()=>{Router.push('/')}}>Trouver</button>
-                </div>
+                    <div className="flex items-center justify-between py-3 md:py-5 mx-4 md:block mt-1">
+                        <div className='mr-auto set-t text-3xl head logo ml-4 font-bold'>
+                            <button className='' onClick={() => { Router.push('/') }}>Trouver</button>
+                        </div>
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -49,30 +49,30 @@ export default function Testnav() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="ml-auto">
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                            navbar ? "block" : "hidden"
-                        }`}
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+                            }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
-                                <button onClick={() => { Router.push('/Prblmsol')}}>Problems-Solutions</button>
-                            </li>
-                            <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
-                                <button onClick={() => { Router.push('/PlnAction')}}>Plan of Action</button>
-                            </li>
-                            <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
-                                <button onClick={() => { Router.push('/Resmap')}}>Resource Mapping</button>
-                            </li>
-                            <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
-                                <button onClick={() => { Router.push('/Aboutus')}}>About Us</button>
-                            </li>
-                            <li className="font-semibold text-lg hover:text-sky-900/75 px-5">
-                            <button className='text-lg text-white hover:bg-sky-400 setbgbutton font-semibold rounded-lg ml-auto py-3 px-5 sign-up' onClick={()=>{Router.push('/Forms')}}>Help us</button>
-                            </li>
-                           
-                        </ul>
+                        <div className="flex mt-6">
+                            <div className="justify-center md:flex ">
+                                <div className="font-semibold text-lg hover:text-sky-900/75 px-5">
+                                    <button onClick={() => { Router.push('/Prblmsol') }}>Problems-Solutions</button>
+                                </div>
+                                <div className="font-semibold text-lg hover:text-sky-900/75 px-5">
+                                    <button onClick={() => { Router.push('/PlnAction') }}>Plan of Action</button>
+                                </div>
+                                <div className="font-semibold text-lg hover:text-sky-900/75 px-5">
+                                    <button onClick={() => { Router.push('/Resmap') }}>Resource Mapping</button>
+                                </div>
+                                <div className="font-semibold text-lg hover:text-sky-900/75 px-5">
+                                    <button onClick={() => { Router.push('/Aboutus') }}>About Us</button>
+                                </div>
+                            </div>
+                            <div className="font-semibold text-lg hover:text-sky-900/75 px-5 ml-auto">
+                                <button className='text-lg text-white hover:bg-sky-400 setbgbutton font-semibold rounded-lg ml-auto py-3 px-5 sign-up' onClick={() => { Router.push('/Forms') }}>Help us</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

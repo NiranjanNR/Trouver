@@ -77,7 +77,7 @@ const Shops = () => {
         }
     ]
     return (
-        <div className='m-10 xl:h-[100vh]'>
+        <div className='mx-10 xl:h-[100vh]'>
             <div className='flex justify-center mb-6'>
                 <div className='mt-12'>
                     <div className='head fontme tracking-wide xl:text-4xl text-4xl p-4 '>Available Clinics</div>
@@ -88,7 +88,6 @@ const Shops = () => {
                     <Card shop={item} key={item.id} />
                 ))}
             </div>
-
         </div>
     )
 }
