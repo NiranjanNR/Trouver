@@ -30,7 +30,7 @@ const MedicalShops = () => {
         </div >
 
         <Shops />
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1XZD4qBG6ZkAiWVefzzSNIXP6c5tePJ4&ehbc=2E312F" width="640" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Q9KEfY1aOD36SqtUvcT35remeeT5Lvw&ehbc=2E312F" width="640" height="480"></iframe>
         <Footer />
       </div>
 

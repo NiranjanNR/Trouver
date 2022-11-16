@@ -33,6 +33,7 @@ const MedicalShops = () => {
       <div className='font-bold text-center px-[50px] py-[50px] context text-black text-4xl'>Medical Shops Near you</div>
 
       <Shops1 />
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1glLxP4FuVw7Tb13_yT_e-syqDxDFCww&ehbc=2E312F" width="640" height="480"></iframe>
         <Footer />
         </div>
     </div>
