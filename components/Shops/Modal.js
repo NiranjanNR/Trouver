@@ -62,7 +62,7 @@ const Modal = ({ shop, close }) => {
   }
 
   return (
-    <motion.div className='flex h-screen w-screen overflow-hidden' variants={dropIn} initial="hidden" animate="visible" exit="exit">
+    <motion.div className='flex h-fit w-4/5 overflow-hidden' variants={dropIn} initial="hidden" animate="visible" exit="exit">
       <motion.div className='bg-white 2xl:h-2/3 2xl:w-3/4 xl:h-8/12 xl:w-8/12 p-10 m-auto rounded-3xl shadow-grey-300 grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 gap-4 grid-rows-2'>
         <motion.img variants={imageDrop} src={image} className="col-span-2 row-span-2 rounded-2xl object-cover h-full w-full" />
         <motion.div variants={infoSlide} className=' row-span-2 flex flex-col gap-5' >

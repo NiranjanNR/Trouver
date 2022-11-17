@@ -24,7 +24,7 @@ const Card = ({ shop }) => {
       <AnimatePresence>
         {open && (
           <motion.div
-            className="bg-black bg-opacity-50 flex h-full fixed top-0 left-0 w-full z-50"
+            className="bg-black bg-opacity-50 flex justify-center items-center h-full fixed top-0 left-0 w-full z-50"
             onClick={closeModal}
             initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
