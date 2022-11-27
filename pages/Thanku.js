@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar/NavBar'
 
 function Thanku() {
   return (
-    <div className='thanku h-[100vh]' >
+    <div className='thanku h-full' >
       <NavBar />
       <div className='flex justify-center '>
         <div className=''>

@@ -12,7 +12,7 @@ const MedicalShops = () => {
 
   return (
     <div>
-      <div className='grid grid-row-3 gap-3'>
+      <div className='grid grid-row-3 gap-3 w-[210vw] sm:w-full'>
         <div className='page-1 h-[100vh]'>
           <Testnav />
           <div className='px-24 ml-5'>

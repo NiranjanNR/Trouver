@@ -167,7 +167,7 @@ function Forms() {
   const [shwfrm, setShwfrm] = useState(false)
 
   return (
-    <div className='thanku h-[100vh]'>
+    <div className='thanku h-full'>
       <Testnav />
  
       <div className="mb-10 flex justify-center pt-10">

@@ -3,7 +3,7 @@ import Testnav from '../components/NavBar/Testnav'
 import Footer from '../components/Footer/footer'
 function Aboutus() {
   return (
-    <div className='thanku h-[100vh]'>
+    <div className='thanku h-full w-[210vw] sm:w-full'>
         <Testnav/>
         <h1 className="text-center text-2xl mb-5 ml-5 text font-bold">The Team Behind This</h1>
 
@@ -25,7 +25,7 @@ function Aboutus() {
               </div>
               </div>
               </div>
-        <div>The gif to be placed</div>
+              <div className='flex items-center'><img alt='' className='rounded-[300px]' src='abt-us.gif'></img></div>
               </div>
               <Footer />
     </div>
