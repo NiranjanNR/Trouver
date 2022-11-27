@@ -24,7 +24,7 @@ function Footer() {
                     <h5 className='text-xl font-bold mb-2.5'>Our Contact</h5>
                     <p>Trouver, Amrita School of Computing, Amritapuri, Kollam, Kerala 690525</p>
                     <p>Help: 9072868558</p>
-                    <p>Email: trouver@gmail.com</p>
+                    <p>Email: findtrouver@gmail.com</p>
                 </div>
                 <div>
                 <h5 class="font-bold mb-2.5 text-xl">Quick Links</h5>
