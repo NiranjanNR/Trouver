@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { AiFillAccountBook } from "react-icons/ai";
@@ -7,6 +7,7 @@ import { FaBriefcaseMedical } from "react-icons/fa";
 import { IoTime, IoDesktop } from "react-icons/io5";
 import { HiCurrencyRupee } from "react-icons/hi";
 import { BsPenFill, BsFillPersonFill } from "react-icons/bs";
+
 
 const Modal = ({ shop, close }) => {
   const { name, location, doc, image, Specialisation, Timings, Fee, Appointment_no, Appointment_Type } = shop;
