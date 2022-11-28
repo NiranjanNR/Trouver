@@ -31,8 +31,11 @@ export default function Home() {
         </div>
       </div>
 
-<div ref={myRef}>
+<div>
   <LandingPage  />
+</div>
+<div ref={myRef}>
+    {/* Using this div as reference to scroll to the absolute bottom */}
 </div>
       
     </div>

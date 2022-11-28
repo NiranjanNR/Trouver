@@ -10,26 +10,28 @@ const LandingPage = () => {
     "bg-gradient-to-r from-gray-900 via-blue-800 to-gray-900";
 
   return (
-    <div className="h-screen w-screen bg-white from relative overflow-x-hidden">
+    <div className="h-screen w-screen bg-white from relative overflow-x-clip">
       <div
         id="signin"
-        className={`bg-white absolute top-0 left-0 h-full w-1/2 flex justify-center items-center transition-all duration-700 ease-in-out z-20 ${
+        className={`bg-white absolute top-0 left-0 h-full w-full flex-col mt-20 sm:w-1/2 sm:mt-0 sm:overflow-clip flex justify-center items-center transition-all duration-700 ease-in-out z-20 ${
           isAnimated ? "translate-x-full opacity-0" : ""
         }`}
       >
         <MedicalShops />
+        <h5 className="text-xl visible sm:invisible hover:text-purple-800 underline" onClick={() =>setIsAnimated(!isAnimated)}>Looking for medical clinics instead?</h5>
       </div>
 
       <div
         id="signup"
-        className={`absolute top-0 left-0 h-full w-1/2 flex justify-center items-center transition-all duration-700 ease-in-out ${
+        className={`absolute top-0 left-0 h-full w-full flex-col mt-20 sm:w-1/2 sm:mt-0 sm:overflow-clip flex justify-center items-center transition-all duration-700 ease-in-out ${
           isAnimated
-            ? "translate-x-full opacity-100 z-50 animate-show"
+            ? "sm:translate-x-full sm:opacity-100 sm:z-50 sm:animate-show"
             : "opacity-0 z-10"
         }`}
       >
-        <div className="h-full w-full flex justify-center items-center">
+        <div className="h-full w-full flex flex-col justify-center items-center">
           <Clinics />
+          <h5 className="text-xl visible sm:invisible hover:text-purple-800 underline" onClick={() =>setIsAnimated(!isAnimated)}>Looking for medical shops instead?</h5>
         </div>
       </div>
 
@@ -41,8 +43,8 @@ const LandingPage = () => {
       >
         <div
           id="overlay"
-          style={{ backgroundImage: "url('https://iili.io/p6kVJj.md.png')", backgroundSize: 'cover' }}
-          className={`relative -left-full h-full w-[200%] transform transition-transform duration-700 ease-in-out ${
+          style={{ backgroundImage: `url(${ isAnimated ? 'ClinicsBanner.gif' : 'PharmacyBanner.gif'})`, backgroundSize: 'cover' }}
+          className={`relative -left-full h-full w-[200%] hidden sm:block transform transition-transform duration-700 ease-in-out ${
             isAnimated ? "translate-x-1/2" : "translate-x-0"
           }`}
         >
