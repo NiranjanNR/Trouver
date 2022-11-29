@@ -7,11 +7,11 @@ function Aboutus() {
         <Testnav/>
         <h1 className="text-center text-2xl mb-5 ml-5 text font-bold">The Team Behind This</h1>
 
-        <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 gap-2 ">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 gap-2 ">
     <div className='lg:p-20 p-10'>
             <div className=' rounded-lg shadow-2xl border-4  border border-blue-400 border-opacity-50 hover:border-blue-500 p-20 mb-5'>
             <h1 className="text-center text-xl mb-5 ml-5 text font-bold">SSR22-23 - 141</h1>
-            <div class="grid grid-cols-2 gap-2 ">
+            <div className="grid grid-cols-2 gap-2 ">
                <p className='p-2 text-xl'>Advait Bal </p>
                <p className='p-2 text-xl'>- AM.EN.U4CSE20104</p>
                <p className='p-2 text-xl'>N R Niranjan  </p>

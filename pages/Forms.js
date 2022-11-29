@@ -20,7 +20,7 @@ function SgstClinic() {
   };
   return (
 
-    <div class="">
+    <div className="">
 
       <div className="">
         <div className=''>
@@ -29,7 +29,7 @@ function SgstClinic() {
               <h1 className="text-2xl mb-5 ml-5 text font-bold">Suggest a medical facility near you!</h1>
               <h1 className="text-xl text  ml-5">Fill all the details you know</h1>
               <form ref={form} onSubmit={sendClinicDet}>
-                <div class="grid grid-cols-2 gap-4 p-5 mt-5">
+                <div className="grid grid-cols-2 gap-4 p-5 mt-5">
                   <span className="text-2xl font-medium ">
                     Your Email:
                   </span>
@@ -111,7 +111,7 @@ function SgstMshops() {
               <h1 className="text-2xl mb-5 ml-5 text font-bold">Suggest a medical Shop you know near you!</h1>
               <h1 className="text-xl text  ml-5">Fill all the details you know</h1>
               <form ref={form} onSubmit={sendMshopDet}>
-                <div class="grid grid-cols-2 gap-4 p-5 mt-5">
+                <div className="grid grid-cols-2 gap-4 p-5 mt-5">
                   <span className="text-2xl font-medium ">
                     Your Email:
                   </span>

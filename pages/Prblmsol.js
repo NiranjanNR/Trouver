@@ -7,7 +7,7 @@ function Prblmsol() {
     <Testnav/>
     <h1 className="text-center text-2xl mb-5 ml-5 text font-bold">Mapping The Resources We Need</h1>
 
-    <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 gap-2 ">
+    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 gap-2 ">
     <div className='flex items-center'><img alt='' className='rounded-[300px]' src='prblmsol.gif'></img></div>
 <div className='lg:p-5'>
         <div className=' rounded-lg shadow-2xl border-4  border border-blue-400 border-opacity-50 hover:border-blue-500 p-20 mb-5'>
