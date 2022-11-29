@@ -10,7 +10,7 @@ import { BsPenFill, BsFillPersonFill } from "react-icons/bs";
 
 
 const Modal = ({ shop, close }) => {
-  const { name, location, doc, image, Specialisation, Timings, Fee, Appointment_no, Appointment_Type } = shop;
+  const { name, loc, doc, img, speclstn, time, fee, apptNo, apptType } = shop;
 
   const dropIn = {
     visible: {
@@ -65,19 +65,19 @@ const Modal = ({ shop, close }) => {
   return (
     <motion.div className='flex h-fit w-4/5 overflow-hidden' variants={dropIn} initial="hidden" animate="visible" exit="exit">
       <motion.div className='bg-white 2xl:h-2/3 2xl:w-3/4 xl:h-8/12 xl:w-8/12 p-10 m-auto rounded-3xl shadow-grey-300 grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 gap-4 grid-rows-2'>
-        <motion.img variants={imageDrop} src={image} className="col-span-2 row-span-2 rounded-2xl object-cover h-full w-full" />
+        <motion.img variants={imageDrop} src={img} className="col-span-2 row-span-2 rounded-2xl object-cover h-full w-full" />
         <motion.div variants={infoSlide} className=' row-span-2 flex flex-col gap-5' >
           <motion.div className='text-5xl'>{name}</motion.div>
           <div className="flex justify-start"><BsFillPersonFill className='text-3xl mr-5' />  <motion.div className='text-2xl'>{doc}</motion.div></div>
 
-          <div className="flex justify-start"><ImLocation className='text-4xl mr-5' /> <motion.div className='text-2xl' >{location}</motion.div></div>
+          <div className="flex justify-start"><ImLocation className='text-4xl mr-5' /> <motion.div className='text-2xl' >{loc}</motion.div></div>
 
 
-          <div className="flex justify-start"><FaBriefcaseMedical className='text-3xl mr-5' /><motion.div className='text-2xl'>{Specialisation}</motion.div></div>
-          <div className="flex justify-start"><IoTime className='text-3xl mr-5' /><motion.div className='text-2xl'>{Timings}</motion.div></div>
-          <div className="flex justify-start"><HiCurrencyRupee className='text-3xl mr-5' /><motion.div className='text-2xl'>{Fee}</motion.div></div>
-          <div className="flex justify-start"><BsPenFill className='text-3xl mr-5' /><motion.div className='text-2xl'>{Appointment_no}</motion.div></div>
-          <div className="flex justify-start"><IoDesktop className='text-3xl mr-5' /><motion.div className='text-2xl'>{Appointment_Type}</motion.div></div>
+          <div className="flex justify-start"><FaBriefcaseMedical className='text-3xl mr-5' /><motion.div className='text-2xl'>{speclstn}</motion.div></div>
+          <div className="flex justify-start"><IoTime className='text-3xl mr-5' /><motion.div className='text-2xl'>{time}</motion.div></div>
+          <div className="flex justify-start"><HiCurrencyRupee className='text-3xl mr-5' /><motion.div className='text-2xl'>{fee}</motion.div></div>
+          <div className="flex justify-start"><BsPenFill className='text-3xl mr-5' /><motion.div className='text-2xl'>{apptNo}</motion.div></div>
+          <div className="flex justify-start"><IoDesktop className='text-3xl mr-5' /><motion.div className='text-2xl'>{apptType}</motion.div></div>
         </motion.div>
       </motion.div>
 

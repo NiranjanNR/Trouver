@@ -7,20 +7,20 @@ import { FaBriefcaseMedical } from "react-icons/fa";
 import { IoTime, IoDesktop } from "react-icons/io5";
 import { HiCurrencyRupee } from "react-icons/hi";
 import { BsPenFill, BsFillPersonFill } from "react-icons/bs";
-
+import { AiFillPhone } from "react-icons/ai";
 const Modal = ({ shop, close }) => {
   const {
     name,
-    location,
-    image,
-    Timings1,
-    Timings2,
-    Timings3,
-    Timings4,
-    Timings5,
-    Timings6,
-    Timings7,
-    Contact_no,
+    loc,
+    img,
+    T1,
+    T2,
+    T3,
+    T4,
+    T5,
+    T6,
+    T7,
+    cntct,
   } = shop;
 
   const dropIn = {
@@ -84,7 +84,7 @@ const Modal = ({ shop, close }) => {
       <motion.div className="bg-white 2xl:h-9/12 2xl:w-9/12 xl:h-9/12 xl:w-9/12 p-10 m-auto rounded-2xl shadow-grey-600 grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 gap-4 grid-rows-2">
         <motion.img
           variants={imageDrop}
-          src={image}
+          src={img}
           className="col-span-2 row-span-2 rounded-2xl object-cover h-full w-full"
         />
         <motion.div
@@ -95,41 +95,41 @@ const Modal = ({ shop, close }) => {
 
           <div className="flex justify-start">
             <ImLocation className="text-3xl mr-5" />{" "}
-            <motion.div className="text-xl">{location}</motion.div>
+            <motion.div className="text-xl">{loc}</motion.div>
           </div>
 
           <div className="flex justify-start">
             <IoTime className="text-2xl mr-5" />
-            <motion.div className="text-xl">{Timings1}</motion.div>
+            <motion.div className="text-xl">{T1}</motion.div>
           </div>
           <div className="flex justify-start">
             <div className="text-2xl mr-11" />
-            <motion.div className="text-xl">{Timings2}</motion.div>
+            <motion.div className="text-xl">{T2}</motion.div>
           </div>
           <div className="flex justify-start">
             <div className="text-2xl mr-11" />
-            <motion.div className="text-xl">{Timings3}</motion.div>
+            <motion.div className="text-xl">{T3}</motion.div>
           </div>
           <div className="flex justify-start">
             <div className="text-2xl mr-11" />
-            <motion.div className="text-xl">{Timings4}</motion.div>
+            <motion.div className="text-xl">{T4}</motion.div>
           </div>
           <div className="flex justify-start">
             <div className="text-2xl mr-11" />
-            <motion.div className="text-xl">{Timings5}</motion.div>
+            <motion.div className="text-xl">{T5}</motion.div>
           </div>
           <div className="flex justify-start">
             <div className="text-2xl mr-11" />
-            <motion.div className="text-xl">{Timings6}</motion.div>
+            <motion.div className="text-xl">{T6}</motion.div>
           </div>
           <div className="flex justify-start">
             <div className="text-2xl mr-11" />
-            <motion.div className="text-xl">{Timings7}</motion.div>
+            <motion.div className="text-xl">{T7}</motion.div>
           </div>
 
           <div className="flex justify-start">
-            <BsPenFill className="text-3xl mr-5" />
-            <motion.div className="text-xl">{Contact_no}</motion.div>
+            <AiFillPhone className="text-3xl mr-5" />
+            <motion.div className="text-xl">{cntct}</motion.div>
           </div>
         </motion.div>
       </motion.div>

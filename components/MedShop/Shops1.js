@@ -1,7 +1,24 @@
-import React from 'react'
+import { useState, useEffect } from "react";
 import Card1 from './Card1'
-
+import {db} from "../../firebase/firebase-config"
+import {
+  collection,
+  getDocs,
+} from "firebase/firestore";
 const Shops1 = () => {
+    const [msDet, setmsDet] = useState([]);
+  const usersCollectionRef = collection(db, "mediShops");
+
+  useEffect(() => {
+    const msDet = async () => {
+      const data = await getDocs(usersCollectionRef);
+      console.log(data);
+      setmsDet(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+
+    msDet();
+  }, []);
+
     const sampleData = [
         {
             id: 1,
@@ -99,7 +116,7 @@ const Shops1 = () => {
   return (
     <div>
         <div className='px-3 grid 2xl:grid-cols-4 2xl:gap-2 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  '>
-            {sampleData.map((item) => (
+            {msDet.map((item) => (
             <Card1 shop={item} key={item.id} />
           ))}
         </div>

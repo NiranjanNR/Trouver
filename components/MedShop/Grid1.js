@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Grid = ({shop, open}) => {
     console.log(shop)
-    const {name,location,description,image} = shop;
+    const {name,loc,description,img} = shop;
 
     return (
         <motion.div className=" m-5 rounded-3xl shadow-lg overflow-hidden" onClick={open} whileHover={{ scale: 1.1 }}>
@@ -12,12 +12,12 @@ const Grid = ({shop, open}) => {
               <img
                 className="w-full"
                 alt="real estate mansion"
-                src={image}
+                src={img}
               />
             </div>
             <div className='px-2 py-2 flex flex-col gap-1'>
               <div className="font-bold cardsdata fontcol text-[22px] mb-2">{name}</div>
-              <div className="fontcol text-[16px] opacity-70">{location}
+              <div className="fontcol text-[16px] opacity-70">{loc}
               </div>
               <div className="fontcol listing__row opacity-70">
                 <span className="listing__address">{description}</span>

@@ -13,12 +13,12 @@ const MedicalShops = () => {
           <div className="mx-auto overflow-hidden">
             <div className="p-0">
               <h1 className="text-5xl font-bold text-indigo-800">
-                Find nearby Medical shops!!!
+                Find nearby Medical shops
               </h1>
 
               <div className="mt-12 flex flex-col justify-center items-center gap-2" action="" method="POST">
                 <div className="relative">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Finding the nearest medical shops for our students to cater their pharmaceutical needs, Also use our maps to locate these medical shops.
                 </div>
 
                 <Link

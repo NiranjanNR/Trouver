@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Grid = ({shop, open}) => {
     console.log(shop)
-    const {name,location,description,image} = shop;
+    const {name,loc,description,img} = shop;
 
 
     return (
@@ -13,12 +13,12 @@ const Grid = ({shop, open}) => {
               <img
                 className=" w-full"
                 alt="real estate mansion"
-                src={image}
+                src={img}
               />
             </div>
             <div className='px-5 py-5 flex flex-col gap-1'>
               <div className="font-bold text-2xl mb-2">{name}</div>
-              <div className="text-gray-700 text-xl ">{location}
+              <div className="text-gray-700 text-xl ">{loc}
               </div>
               <div className="listing__row">
                 <span className="listing__address">{description}</span>

@@ -17,7 +17,7 @@ const Clinics = () => {
 
               <form className="mt-12" action="" method="POST">
                 <div className="relative">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Providing the closest and affordable clinics to our students because their health is our priority, Also use our maps to locate these clinics . 
                 </div>
                 
                 <Link
